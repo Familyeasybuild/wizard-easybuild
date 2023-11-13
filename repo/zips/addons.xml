@@ -2,9 +2,9 @@
 <addons><addon id="easybuild_addon" name="familyeasybuild.github.io" provider-name="easybuild" version="3.0.0">
     <extension name="Example Repository" point="xbmc.addon.repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/easybuild/familyeasybuild.github.io/main/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/easybuild/familyeasybuild.github.io/main/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/easybuild/familyeasybuild.github.io/main/repo/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/easybuild/familyeasybuild.github.io/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/easybuild/familyeasybuild.github.io/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/easybuild/familyeasybuild.github.io/master/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
