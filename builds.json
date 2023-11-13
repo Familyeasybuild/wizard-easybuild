@@ -1,0 +1,28 @@
+{
+	"builds": [
+		{
+			"name": "family easybuild",
+			"version": "1.0",
+			"url": "https://www.dropbox.com/scl/fi/rk4h4k27nkpdylezylxri/1.004kodi-20.2familyeasybuild.zip?rlkey=1d8o54ah8nla58xo1jg6w7bkx&dl=1",
+			"icon": "https://www.dropbox.com/scl/fi/3i51nay0sqqrwgc8kkc0s/family-easybuild-build.jpg?rlkey=a83l8xicm171llgnmvywz2mh8&dl=1",
+			"fanart": "https://www.dropbox.com/s/od0n0p277s5fblr/fanart.jpg?dl=1",
+			"description": "family easybuild wizard"
+		},
+		{
+			"name": "simon testing easybuild",
+			"version": "1.0",
+			"url": "https://www.dropbox.com/scl/fi/rk4h4k27nkpdylezylxri/1.004kodi-20.2familyeasybuild.zip?rlkey=1d8o54ah8nla58xo1jg6w7bkx&dl=1",
+			"icon": "https://www.dropbox.com/scl/fi/sircicarrequ27kezyj40/simon-s-testing-build-update.png?rlkey=c1j4v73k1qh8l1hahozshdrgc&dl=1",
+			"fanart": "https://www.dropbox.com/s/od0n0p277s5fblr/fanart.jpg?dl=1",
+			"description": "simon testing family easybuild wizard"
+		},
+		{
+			"name": "old easybuild",
+			"version": "1.0",
+			"url": "https://www.dropbox.com/scl/fi/5mgn9kz2kq6n8ecasiof4/1.004kodi-20.2familyeasybuild.zip?rlkey=rpcvbzbx1exlqyp2w1y5j6mof&dl=1",
+			"icon": "https://www.dropbox.com/s/6pvw6mz7pzre94b/old%20build.png?dl=1",
+			"fanart": "https://www.dropbox.com/s/od0n0p277s5fblr/fanart.jpg?dl=1",
+			"description": "old family easybuild wizard"
+		}
+	]
+}
