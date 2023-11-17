@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.easybuild" name="family easybuild" version="1.0.1" provider-name="easybuild">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Welcome to the family easybuild Wizard</summary>
+		<description lang="en_GB">family Easybuild is a small build for family members ONLY, Please do not install if you do not have promision</description>
+		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source></source>
+		<news></news>
+		<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+				<screenshot>resources/screenshot-01.jpg</screenshot>
+				<screenshot>resources/screenshot-02.jpg</screenshot>
+				<screenshot>resources/screenshot-03.jpg</screenshot>
+				<banner></banner>
+				<clearlogo></clearlogo>
+				<screenshot></screenshot>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="repository.easybuild" name="Easybuild Repo" version="1.0.0" provider-name="Familyeasybuild">
+    <extension point="xbmc.addon.repository" name="Easybuild Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Familyeasybuild/wizard-easybuild/repo/master/_zipfiles/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Familyeasybuild/wizard-easybuild/repo/master/_zipfiles/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Familyeasybuild/wizard-easybuild/repo/master/_zipfiles/</datadir>
+			<hashes>false</hashes>
+		</dir>
+        <dir>
+           <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+           <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+           <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Family Easy Build Repository</summary>
+        <description lang="en_GB">Repo from the Family Easy Build.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+</addons>
