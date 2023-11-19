@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.easybuild" name="Easybuild Repo" version="1.0.0" provider-name="Familyeasybuild">
+<addon id="repository.easybuild" name="Easybuild Repo" version="1.0.1" provider-name="Familyeasybuild">
     <extension point="xbmc.addon.repository" name="Easybuild Repo">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/Familyeasybuild/wizard-easybuild/master/repo/_zipfiles/addons.xml</info>
