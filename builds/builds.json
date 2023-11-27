@@ -1,28 +1,28 @@
 {
 	"builds": [
-		{
-			"name": "family easybuild (amber skin)",
+				{
+			"name": "marlene firestick, easybuild (arctic.zephyr.mod skin)",
 			"version": "1.0",
-			"url": "https://www.dropbox.com/scl/fi/srgl7uiellpevh01otaw9/amber-skin-1006-20.2-easybuild-family.zip?rlkey=lcdbzxw8j1ti6a06ojnr1a1hh&dl=1",
-			"icon": "https://www.dropbox.com/scl/fi/3i51nay0sqqrwgc8kkc0s/family-easybuild-build.jpg?rlkey=a83l8xicm171llgnmvywz2mh8&dl=1",
+			"url": "https://www.dropbox.com/scl/fi/p5ymv04bbeidjawo6ntax/arctic-zephyr.mod-skin-1.7-20.2-easybuild-family.zip?rlkey=ecjq9r2lgjiebfw3b8rifizjj&dl=1",
+			"icon": "https://www.dropbox.com/scl/fi/3i5arctic.zephyr.mod skin1nay0sqqrwgc8kkc0s/family-easybuild-build.jpg?rlkey=a83l8xicm171llgnmvywz2mh8&dl=1",
 			"fanart": "https://www.dropbox.com/s/od0n0p277s5fblr/fanart.jpg?dl=1",
-			"description": "family easybuild wizard"
+			"description": "marlene firestick only (family easybuild wizard)"
 		},
 		{
-			"name": "family easybuild (arctic.zephyr.mod skin)",
+			"name": "simon's Box's, easybuild (arctic.zephyr.mod skin)",
 			"version": "1.0",
-			"url": "https://www.dropbox.com/scl/fi/ae9o3nhzi0o57ue73b3fm/arctic-zephyr.mod-skin-1.6-20.2-easybuild-family.zip?rlkey=q61hc1vh4s0rjkcznamc1jp0k&dl=1",
+			"url": "https://www.dropbox.com/scl/fi/p5ymv04bbeidjawo6ntax/arctic-zephyr.mod-skin-1.7-20.2-easybuild-family.zip?rlkey=ecjq9r2lgjiebfw3b8rifizjj&dl=1",
 			"icon": "https://www.dropbox.com/scl/fi/3i51nay0sqqrwgc8kkc0s/family-easybuild-build.jpg?rlkey=a83l8xicm171llgnmvywz2mh8&dl=1",
 			"fanart": "https://www.dropbox.com/s/od0n0p277s5fblr/fanart.jpg?dl=1",
-			"description": "family easybuild wizard"
+			"description": "bedroom tv, kitchen tv, garage tv, tablet (family easybuild wizard)"
 		},
 		{
-			"name": "simon testing easybuild",
+			"name": "simon testing front room tv easybuild",
 			"version": "1.3",
-			"url": "https://www.dropbox.com/scl/fi/srgl7uiellpevh01otaw9/amber-skin-1006-20.2-easybuild-family.zip?rlkey=lcdbzxw8j1ti6a06ojnr1a1hh&dl=1",
+			"url": "https://www.dropbox.com/scl/fi/p5ymv04bbeidjawo6ntax/arctic-zephyr.mod-skin-1.7-20.2-easybuild-family.zip?rlkey=ecjq9r2lgjiebfw3b8rifizjj&dl=1",
 			"icon": "https://www.dropbox.com/scl/fi/sircicarrequ27kezyj40/simon-s-testing-build-update.png?rlkey=c1j4v73k1qh8l1hahozshdrgc&dl=1",
 			"fanart": "https://www.dropbox.com/s/od0n0p277s5fblr/fanart.jpg?dl=1",
-			"description": "simon testing family easybuild wizard"
+			"description": "front room tv, simon testing (family easybuild wizard)"
 		},
 		{
 			"name": "old easybuild",
