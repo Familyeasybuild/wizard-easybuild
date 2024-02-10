@@ -25,12 +25,12 @@
 			"description": "front room tv, simon testing (family easybuild wizard)"
 		},
 		{
-			"name": "old easybuild",
-			"version": "1.0",
-			"url": "https://www.dropbox.com/scl/fi/5mgn9kz2kq6n8ecasiof4/1.004kodi-20.2familyeasybuild.zip?rlkey=rpcvbzbx1exlqyp2w1y5j6mof&dl=1",
-			"icon": "https://www.dropbox.com/s/6pvw6mz7pzre94b/old%20build.png?dl=1",
+			"name": "small build Box's, easybuild (arctic.zephyr.mod skin)",
+			"version": "1.1",
+			"url": "https://www.dropbox.com/scl/fi/m4qzewwxhrs3gnk8uk7dd/small-build-easybuild-1.1.zip?rlkey=cjcjhkk2m3pcki0ynyicuw0qd&dl=1",
+			"icon": "https://www.dropbox.com/scl/fi/ocvsu6klsan68e22ha4wz/icon.png?rlkey=re0t7wtiznuzhdiuk9w9dhyai&dl=1=1",
 			"fanart": "https://www.dropbox.com/s/od0n0p277s5fblr/fanart.jpg?dl=1",
-			"description": "old family easybuild wizard"
+			"description": "small build easybuild wizard"
 		}
 	]
 }

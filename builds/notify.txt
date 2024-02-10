@@ -6,3 +6,5 @@ Family Easybuild Notification
 
 
 19-11-23 > github started hosting wizard
+
+10-02-24 > small build started for devices will low memory
