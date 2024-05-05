@@ -3,10 +3,10 @@
 
 Family Easybuild Notification
 
-     ------------------
+-----------------------------
      ______UPDATE______ 
        TO BE INSTALLED
-     ------------------
+-----------------------------
 
 19-11-23 > github started hosting wizard
 
