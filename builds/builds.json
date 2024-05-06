@@ -3,7 +3,7 @@
 				{
 			"name": "marlene firestick, easybuild (arctic.zephyr.mod skin)",
 			"version": "1.3",
-			"url": "http://192.168.1.128/hosting-kodi/build-zips/zephyr.mod-skin-1.3-20.1-easybuild-family.zip",
+			"url": "https://archive.org/download/zephyr.mod-skin-1.3-20.1-easybuild-family/zephyr.mod-skin-1.3-20.1-easybuild-family.zip",
 			"icon": "https://www.dropbox.com/scl/fi/3i5arctic.zephyr.mod skin1nay0sqqrwgc8kkc0s/family-easybuild-build.jpg?rlkey=a83l8xicm171llgnmvywz2mh8&dl=1",
 			"fanart": "https://www.dropbox.com/s/od0n0p277s5fblr/fanart.jpg?dl=1",
 			"description": "marlene firestick only (family easybuild wizard)"
@@ -11,7 +11,7 @@
 		{
 			"name": "simon's Box's, easybuild (arctic.zephyr.mod skin)",
 			"version": "1.3",
-			"url": "http://192.168.1.128/hosting-kodi/build-zips/zephyr.mod-skin-1.3-20.2-easybuild-family.zip",
+			"url": "https://archive.org/download/zephyr.mod-skin-1.3-20.1-easybuild-family/zephyr.mod-skin-1.3-20.1-easybuild-family.zip",
 			"icon": "https://www.dropbox.com/scl/fi/3i51nay0sqqrwgc8kkc0s/family-easybuild-build.jpg?rlkey=a83l8xicm171llgnmvywz2mh8&dl=1",
 			"fanart": "https://www.dropbox.com/s/od0n0p277s5fblr/fanart.jpg?dl=1",
 			"description": "bedroom tv, kitchen tv, garage tv, tablet (family easybuild wizard)"
@@ -19,15 +19,15 @@
 		{
 			"name": "simon testing front room tv easybuild",
 			"version": "1.2",
-			"url": "http://192.168.1.128/arctic-zephyr.mod-skin-1.3-20.1-easybuild-family.zip",
+			"url": "https://archive.org/download/zephyr.mod-skin-1.3-20.1-easybuild-family/zephyr.mod-skin-1.3-20.1-easybuild-family.zip",
 			"icon": "https://www.dropbox.com/scl/fi/sircicarrequ27kezyj40/simon-s-testing-build-update.png?rlkey=c1j4v73k1qh8l1hahozshdrgc&dl=1",
 			"fanart": "https://www.dropbox.com/s/od0n0p277s5fblr/fanart.jpg?dl=1",
 			"description": "front room tv, simon testing (family easybuild wizard)"
 		},
 		{
 			"name": "small build Box's, easybuild (arctic.zephyr.mod skin)",
-			"version": "1.1",
-			"url": "https://www.dropbox.com/scl/fi/m4qzewwxhrs3gnk8uk7dd/small-build-easybuild-1.1.zip?rlkey=cjcjhkk2m3pcki0ynyicuw0qd&dl=1",
+			"version": "1.2",
+			"url": "https://archive.org/download/small-build-easybuild-1.2/small%20build%20easybuild%201.2.zip",
 			"icon": "https://www.dropbox.com/scl/fi/ocvsu6klsan68e22ha4wz/icon.png?rlkey=re0t7wtiznuzhdiuk9w9dhyai&dl=1=1",
 			"fanart": "https://www.dropbox.com/s/od0n0p277s5fblr/fanart.jpg?dl=1",
 			"description": "small build easybuild wizard"
