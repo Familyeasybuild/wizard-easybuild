@@ -1,7 +1,7 @@
 {
 	"builds": [
 		{
-			"name": "BIG BUILD Movie, TV, Sport, Live TV. (easybuild) (arctic.zephyr.mod skin)",
+			"name": "BIG BUILD >>>> Movies, TV, Sport, Live TV <<<< (easybuild)",
 			"version": "1.4",
 			"url": "https://www.dropbox.com/scl/fi/w1kkxahiy13w155uwwtv1/arctic-zephyr.mod-skin-1.4-20.2-easybuild-family.zip?rlkey=whxybnlp026irxzzj7ik4buo9&st=n3mkuq1f&dl=1",
 			"icon": "https://www.dropbox.com/scl/fi/3i51nay0sqqrwgc8kkc0s/family-easybuild-build.jpg?rlkey=a83l8xicm171llgnmvywz2mh8&dl=1",
@@ -9,7 +9,7 @@
 			"description": "BIG BUILD Movie, TV, Sport, Live TV.(family easybuild wizard)"
 		},
 		{
-			"name": "SMALL BUILD Movie, TV Only. easybuild (arctic.zephyr.mod skin)",
+			"name": "SMALL BUILD >>>> Movies, TV  <<<< (easybuild)",
 			"version": "1.4",
 			"url": "https://www.dropbox.com/scl/fi/wfkdazw5wl8auzh7cheju/small-build-zephyr.mod-skin-1.4-20.2-easybuild-family.zip?rlkey=warn0d39bdnker5bn3o45k05w&st=xu5r60sl&dl=1",
 			"icon": "https://www.dropbox.com/scl/fi/3i51nay0sqqrwgc8kkc0s/family-easybuild-build.jpg?rlkey=a83l8xicm171llgnmvywz2mh8&dl=1",
@@ -17,7 +17,7 @@
 			"description": "SMALL BUILD Movie, TV Only. (family easybuild wizard)"
 		},
 		{
-			"name": "DO NOT USE BELOW THIS TESTING ONLY",
+			"name": "DO NOT USE BELOW THIS. >TESTING ONLY<",
 			"version": "1.1",
 			"url": "???????????????????????????????????????????????????????????????????????????",
 			"icon": "https://www.dropbox.com/scl/fi/sircicarrequ27kezyj40/simon-s-testing-build-update.png?rlkey=c1j4v73k1qh8l1hahozshdrgc&st=91p8vj4c&dl=1",
@@ -25,7 +25,7 @@
 			"description": "DO NOT USE BELOW THIS TESTING ONLY (family easybuild wizard)"
 		},
 		{
-			"name": "simon's Box's, easybuild (arctic.zephyr.mod skin)",
+			"name": "Simon's Box's, easybuild (arctic.zephyr.mod skin)",
 			"version": "1.4",
 			"url": "https://www.dropbox.com/scl/fi/qufjminr1bo9a4uentncs/arctic-zephyr.mod-skin-1.4-20.2-easybuild-family.zip?rlkey=tiws6t1tvkpexocv2va09oa8z&st=m8gkyo2d&dl=1",
 			"icon": "https://www.dropbox.com/scl/fi/3i51nay0sqqrwgc8kkc0s/family-easybuild-build.jpg?rlkey=a83l8xicm171llgnmvywz2mh8&dl=1",
