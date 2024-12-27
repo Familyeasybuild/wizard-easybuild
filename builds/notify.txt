@@ -8,9 +8,15 @@ Family Easybuild Notification
        TO BE INSTALLED
 -----------------------------------------
 
-19-11-23 > github started hosting wizard
+27-12-24 > fixed resolverURL error (updated the dependancys) , added live tv channel list 
+
+06-05-24 > new update downloader.py to fix dropbox not working
+
+06-05-24 > removed magic dragan and asgard addons and installed titan sports 
 
 10-02-24 > small build started for devices will low memory
 
-06-05-24 > removed magic dragan and asgard addons and installed titan sports 
-06-05-24 > new update downloader.py to fix dropbox not working
+19-11-23 > github started hosting wizard
+
+
+
