@@ -1,4 +1,4 @@
-3
+4
 |||
 
 Family Easybuild Notification
@@ -7,6 +7,7 @@ Family Easybuild Notification
      ______UPDATE______ 
        TO BE INSTALLED
 -----------------------------------------
+13-1-25 > UPDATED Wizard and live tv working 
 
 27-12-24 > fixed resolverURL error (updated the dependancys) , added live tv channel list 
 

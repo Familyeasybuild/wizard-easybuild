@@ -2,8 +2,8 @@
 	"builds": [
 				{
 			"name": "BIG BUILD >>>> Movies, TV, Sport, Live TV <<<< (easybuild)",
-			"version": "1.4",
-			"url": "https://www.dropbox.com/scl/fi/w1kkxahiy13w155uwwtv1/arctic-zephyr.mod-skin-1.4-20.2-easybuild-family.zip?rlkey=whxybnlp026irxzzj7ik4buo9&st=n3mkuq1f&dl=1",
+			"version": "1.6",
+			"url": "https://www.dropbox.com/scl/fi/k5diilskecnuwsbnmopai/arctic-zephyr.mod-skin-1.6-20.2-easybuild-family.zip?rlkey=q1xbwngocsgedfkwfeiysm8vw&st=tlsumm3h&dl=1",
 			"icon": "https://www.dropbox.com/scl/fi/3i51nay0sqqrwgc8kkc0s/family-easybuild-build.jpg?rlkey=a83l8xicm171llgnmvywz2mh8&dl=1",
 			"fanart": "https://www.dropbox.com/s/od0n0p277s5fblr/fanart.jpg?dl=1",
 			"description": "BIG BUILD Movie, TV, Sport, Live TV.(family easybuild wizard)"
@@ -17,6 +17,14 @@
 			"description": "SMALL BUILD Movie, TV Only. (family easybuild wizard)"
 		},
 		{
+			"name": "-----------------------",
+			"version": "--------------------",
+			"url": "------------------------",
+			"icon": "-----------------------",
+			"fanart": "---------------------",
+			"description": "----------------"
+		},
+		{
 			"name": "DO NOT USE BELOW THIS. >TESTING ONLY<",
 			"version": "1.1",
 			"url": "???????????????????????????????????????????????????????????????????????????",
@@ -26,8 +34,8 @@
 		},
 		{
 			"name": "Simon's Box's, easybuild (arctic.zephyr.mod skin)",
-			"version": "1.4",
-			"url": "https://www.dropbox.com/scl/fi/w1kkxahiy13w155uwwtv1/arctic-zephyr.mod-skin-1.4-20.2-easybuild-family.zip?rlkey=whxybnlp026irxzzj7ik4buo9&st=s1f75v2r&dl=1",
+			"version": "1.6",
+			"url": "https://www.dropbox.com/scl/fi/k5diilskecnuwsbnmopai/arctic-zephyr.mod-skin-1.6-20.2-easybuild-family.zip?rlkey=q1xbwngocsgedfkwfeiysm8vw&st=tlsumm3h&dl=1",
 			"icon": "https://www.dropbox.com/scl/fi/3i51nay0sqqrwgc8kkc0s/family-easybuild-build.jpg?rlkey=a83l8xicm171llgnmvywz2mh8&dl=1",
 			"fanart": "https://www.dropbox.com/s/od0n0p277s5fblr/fanart.jpg?dl=1",
 			"description": "bedroom tv, front room tv, kitchen tv, garage tv, tablets (family easybuild wizard)"
