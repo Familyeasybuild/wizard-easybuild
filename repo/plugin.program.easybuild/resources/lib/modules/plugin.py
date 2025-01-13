@@ -1,23 +1,28 @@
-import xbmc
-import xbmcplugin
 import sys
 import os
+import xbmc
+import xbmcplugin
+import xbmcgui
+from uservar import notify_url
 from .params import Params
-from .utils import play_video
+from .play_video import play_video
 from .menus import main_menu, build_menu, submenu_maintenance, backup_restore, restore_gui_skin
 from .authorize import authorize_menu, authorize_submenu
 from .build_install import build_install
 from .maintenance import fresh_start, clear_packages, clear_thumbnails, advanced_settings
 from .whitelist import get_whitelist
-from .addonvar import addon
-from .save_data import restore_gui, restore_skin
+from .addonvar import addon, addon_name, addon_icon, gui_save_default, gui_save_user, advancedsettings_folder_k20, advancedsettings_folder_k21
+from .save_data import restore_gui, restore_skin, backup_gui_skin
 from .backup_restore import backup_build, restore_menu, restore_build, get_backup_folder, reset_backup_folder
 
-handle = int(sys.argv[1])
+try:
+    HANDLE = int(sys.argv[1])
+except IndexError:
+    HANDLE = 0
 
 def router(paramstring):
     p = Params(paramstring)
-    xbmc.log(str(p.get_params()),xbmc.LOGDEBUG)
+    xbmc.log(str(p.get_params()), xbmc.LOGDEBUG)
     
     name = p.get_name()
     name2 = p.get_name2()
@@ -25,10 +30,9 @@ def router(paramstring):
     url = p.get_url()
     mode = p.get_mode()
     icon = p.get_icon()
-    fanart = p.get_fanart()
     description = p.get_description()
     
-    xbmcplugin.setContent(handle, 'files')
+    xbmcplugin.setContent(HANDLE, 'files')
 
     if mode is None:
         main_menu()
@@ -55,7 +59,7 @@ def router(paramstring):
         clear_thumbnails()
     
     elif mode == 8:
-        advanced_settings()
+        advanced_settings(advancedsettings_folder_k20)
     
     elif mode == 9:
         addon.openSettings()
@@ -91,28 +95,48 @@ def router(paramstring):
         restore_gui_skin()
 
     elif mode == 20:
-        restore_gui()
+        restore_gui(gui_save_default)
 
     elif mode == 21:
-        restore_skin()
-    
+        restore_skin(gui_save_default)
+
+    elif mode == 22:
+        backup_gui_skin(gui_save_user)
+        xbmcgui.Dialog().notification(addon_name, 'Backup Complete!', addon_icon, 3000)
+
+    elif mode == 23:
+        restore_gui(gui_save_user)
+        
     elif mode == 24:
-        xbmc.executebuiltin(url)
+        restore_skin(gui_save_user)
     
     elif mode == 25:
+        xbmc.executebuiltin(url)
+    
+    elif mode == 26:
         from .quick_log import log_viewer
         log_viewer()
     
-    elif mode == 26:
+    elif mode == 27:
         authorize_submenu(name2, icon)
     
-    elif mode == 27:
+    elif mode == 28:
         from .speedtester.addon import run
         run()
+
+    elif mode == 29:
+        advanced_settings(advancedsettings_folder_k21)
+    
+    elif mode == 30:
+        from .play_video import video_menu
+        video_menu()
     
     elif mode == 100:
-        from resources.lib.GUIcontrol import notify
+        if notify_url in ('http://CHANGEME', 'http://slamiousproject.com/wzrd/notify19.txt', ''):
+            xbmcgui.Dialog().ok(addon_name, 'No Notifications to Display')
+            sys.exit()
+        from . import notify
         message = notify.get_notify()[1]
         notify.notification(message)
         
-    xbmcplugin.endOfDirectory(handle)
+    xbmcplugin.endOfDirectory(HANDLE)

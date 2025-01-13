@@ -1,10 +1,10 @@
+import os
+import base64
+from datetime import datetime
 import xbmc
 import xbmcvfs
 import xbmcaddon
 import xbmcgui
-import os
-import base64
-from datetime import datetime
 from .colors import colors
 
 
@@ -36,7 +36,10 @@ packages = os.path.join(addons_path, 'packages/')
 zippath = os.path.join(packages, 'tempzip.zip')
 resources = os.path.join(addon_path, 'resources/')
 advancedsettings_xml =  os.path.join(user_path, 'advancedsettings.xml')
-advancedsettings_folder = os.path.join(resources, 'advancedsettings/')
+advancedsettings_folder_k20 = os.path.join(resources, 'advancedsettings_k20/')
+advancedsettings_folder_k21 = os.path.join(resources, 'advancedsettings_k21/')
+gui_save_default = os.path.join(user_path, 'gui_settings/')
+gui_save_user = os.path.join(user_path, 'gui_settings_user/')
 user_agent = 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36'
 headers = {'User-Agent': user_agent}
 current_build = setting('buildname')
@@ -58,13 +61,9 @@ def isBase64(s):
             return False
     except:
         return False
-try:
-    if isBase64(buildfile):
-        buildfile = base64.b64decode(buildfile).decode('utf8')
-except:
-    pass
 
 def currSkin():
     return xbmc.getSkinDir()
+    
 def percentage(part, whole):
     return 100 * float(part)/float(whole)
