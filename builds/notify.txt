@@ -1,4 +1,4 @@
-5
+6
 |||
 
 Family Easybuild Notification
@@ -7,6 +7,8 @@ Family Easybuild Notification
      ______UPDATE______ 
        TO BE INSTALLED
 -----------------------------------------
+06-aug-25 > added to live tv stopped firestick low storage on live tv 1.8
+
 14-2-25 > updated live tv 1.7
 
 13-1-25 > UPDATED Wizard and live tv working 1.6
