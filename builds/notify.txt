@@ -1,4 +1,4 @@
-6
+7
 |||
 
 Family Easybuild Notification
@@ -7,6 +7,11 @@ Family Easybuild Notification
      ______UPDATE______ 
        TO BE INSTALLED
 -----------------------------------------
+28-sept-25 > updated live tv and sports section
+           > added Authorize section 
+		   > fixed trakt on muiltiple devices (sign in to trakt TMDP Helper and then Fen)
+		   
+
 06-aug-25 > added to live tv stopped firestick low storage on live tv 1.8
 
 14-2-25 > updated live tv 1.7
