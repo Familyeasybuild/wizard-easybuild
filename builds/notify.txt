@@ -1,4 +1,4 @@
-8
+9
 |||
 
 Family Easybuild Notification
@@ -11,7 +11,7 @@ Family Easybuild Notification
           > Added a random movie or TV show section in movies or tv shows.
 		  > you need to authorise Trakt and real debride go to authorise accounts section 
 		    and then look for them both in the settings.
-		  > update 3.0
+		  > update 3.2
 
 28-sept-25 > updated live tv and sports section
            > added Authorize section 
