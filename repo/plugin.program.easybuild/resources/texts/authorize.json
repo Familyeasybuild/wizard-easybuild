@@ -79,11 +79,7 @@
             },
                 "name": "[COLOR GOLD][B]Revoke[/B][/COLOR] FENLight [COLOR red][B]Trakt[/B][/COLOR] (easybuild)",
                 "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=trakt.trakt_revoke_authentication)"
-            },
-            {
-                "name": "[COLOR GOLD][B]Revoke[/B][/COLOR] Scrubs [COLOR red][B]Trakt[/B][/COLOR] (easybuild)",
-                "url": "RunPlugin(plugin://plugin.video.scrubsv2/?action=revoke_auth_trakt)"
-            },			
+            },		
             {
                 "name": "Authorize Trakt Addon",
                 "url": "RunScript(script.trakt,action=auth_info)"
