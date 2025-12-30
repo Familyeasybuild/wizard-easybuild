@@ -3,9 +3,21 @@
         "icon": "https://kodiapps.com/sharex/dllhost_2020-02-05_12-07-32.jpg",
         "items": [
             {
-                "name": "Authorize ResolveURL Real-Debrid",
+                "name": "*1.Authorize ResolveURL Real-Debrid  ** ALL Builds",
                 "url": "RunPlugin(plugin://script.module.resolveurl/?mode=auth_rd)"
             },
+            {
+                "name": "*2.Authorize FENLight(AM) Real Debrid  ** Nimbus and KISS Build",
+                "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=real_debrid.authenticate)"
+            },
+            {
+                "name": "*2.Authorize FEN Real Debrid  ** Chameleon Build",
+                "url": "RunPlugin(plugin://plugin.video.fen/?mode=real_debrid.authenticate)"
+            },
+            {
+                "name": "Authorize POV Real Debrid",
+                "url": "RunPlugin(plugin://plugin.video.pov/?mode=myservices&action=realdebrid)"
+            },           
             {
                 "name": "Authorize Realizer Cloud",
                 "url": "RunPlugin(plugin://plugin.video.realizerx/?action=authRealdebrid)"
@@ -18,10 +30,7 @@
                 "name": "Authorize Umbrella Real Debrid",
                 "url": "RunPlugin(plugin://plugin.video.umbrella/?action=rd_Authorize)"
             },
-            {
-                "name": "Authorize FEN Real Debrid",
-                "url": "RunPlugin(plugin://plugin.video.fen/?mode=real_debrid.authenticate)"
-            },
+
 			{
                 "name": "Authorize EZRA Real Debrid",
                 "url": "RunScript(script.module.myaccounts, action=realdebridAuth)"
@@ -31,13 +40,18 @@
                 "url": "RunPlugin(plugin://script.module.resolveurl/?mode=reset_rd)"
             },
             {
-                "name": "Revoke Umbrella Real-Debrid",
-                "url": "RunPlugin(plugin://plugin.video.umbrella/?action=rd_Revoke)"
+                "name": "Revoke FEN Light(AM) Real-Debrid",
+                "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=real_debrid.revoke_authentication)"
             },
             {
                 "name": "Revoke FEN Real-Debrid",
                 "url": "RunPlugin(plugin://plugin.video.fen/?mode=real_debrid.revoke_authentication)"
             },
+            {
+                "name": "Revoke Umbrella Real-Debrid",
+                "url": "RunPlugin(plugin://plugin.video.umbrella/?action=rd_Revoke)"
+            },
+
 			{
                 "name": "Revoke EZRA Real-Debrid",
                 "url": "RunScript(script.module.myaccounts, action=realdebridRevoke)"
@@ -56,6 +70,14 @@
                 "url": "RunScript(script.trakt,action=auth_info)"
             },
             {
+                "name": "*Authorize FENLight Trakt ** Nimbus and KISS Builds",
+                "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=trakt.trakt_authenticate)"
+            }, 
+            {
+                "name": "*Authorize FEN Trakt  ** Chameleon Build",
+                "url": "RunPlugin(plugin://plugin.video.fen/?mode=trakt.trakt_authenticate)"
+            },                       
+            {
                 "name": "Authorize TMDBH Trakt",
                 "url": "RunScript(plugin.video.themoviedb.helper,authenticate_trakt)"
             },
@@ -67,10 +89,7 @@
                 "name": "Authorize Umbrella Trakt",
                 "url": "RunPlugin(plugin://plugin.video.umbrella/?action=traktAuth)"
             },
-            {
-                "name": "Authorize FEN Trakt",
-                "url": "RunPlugin(plugin://plugin.video.fen/?mode=trakt.trakt_authenticate)"
-            },
+
 			{
                 "name": "Authorize EZRA Trakt",
                 "url": "RunScript(script.module.myaccounts, action=traktAuth)"
@@ -165,9 +184,17 @@
         "icon": "https://play-lh.googleusercontent.com/LCdGKehB8Cqa36eh0hQwy3CIWMI4bzSB9SUrAKmRQaXkZsFUNdcxuBgKM7nmBUyIVg",
         "items": [
             {
-                "name": "Authorize ResolveURL Premiumize.me",
+                "name": "*Authorize ResolveURL Premiumize  ** All Builds",
                 "url": "RunPlugin(plugin://script.module.resolveurl/?mode=auth_pm)"
             },
+             {
+                "name": "*Authorize FENLight(AM) Premiumize  ** Nimbus and KISS Builds",
+                "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=premiumize.authenticate)"
+            },
+            {
+                "name": "*Authorize FEN Premiumize  ** Chameleon Builds",
+                "url": "RunPlugin(plugin://plugin.video.fen/?mode=premiumize.authenticate)"
+            },           
             {
                 "name": "Authorize Premiumizer Cloud",
                 "url": "RunPlugin(plugin://plugin.video.premiumizerx/?action=authPremiumize)"
@@ -180,13 +207,10 @@
                 "name": "Authorize Umbrella Premiumize",
                 "url": "RunPlugin(plugin://plugin.video.umbrella/?action=pm_Authorize)"
             },
-            {
-                "name": "Authorize FEN Premiumize",
-                "url": "RunPlugin(plugin://plugin.video.fen/?mode=premiumize.authenticate)"
-            },
+
 			{
-                "name": "Authorize EZRA Premiumize",
-                "url": "RunScript(script.module.myaccounts, action=premiumizeAuth)"
+                "name": "Authorize POV Premiumize",
+                "url": "RunScript(plugin://plugin.video.pov/?mode=myservices&action=premiumize)"
             },
             {
                 "name": "Revoke ResolveURL Premiumize.me",

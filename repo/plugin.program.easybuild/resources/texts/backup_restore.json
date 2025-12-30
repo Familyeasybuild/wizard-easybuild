@@ -14,13 +14,48 @@
         "setting": "savesources",
         "path": "user_path"
     },
+    "guisettings.xml": {
+        "name": "Gui Settings",
+        "setting": "savegui",
+        "path": "user_path"
+    },
+    "plugin.video.seren": {
+        "name": "Seren",
+        "setting": "savedata",
+        "path": "data_path"
+    },
+    "plugin.video.fen": {
+        "name": "Fen",
+        "setting": "savedata",
+        "path": "data_path"
+    },
     "plugin.video.fenlight": {
         "name": "Fen Light",
         "setting": "savedata",
         "path": "data_path"
     },
-    "script.module.myaccounts": {
-        "name": "My Accounts",
+    "plugin.video.umbrella": {
+        "name": "Umbrella",
+        "setting": "savedata",
+        "path": "data_path"
+    },
+    "plugin.video.shadow": {
+        "name": "Shadow",
+        "setting": "savedata",
+        "path": "data_path"
+    },
+    "plugin.video.ghost": {
+        "name": "Ghost",
+        "setting": "savedata",
+        "path": "data_path"
+    },
+    "plugin.video.premiumizerx": {
+        "name": "PremiumizerX",
+        "setting": "savedata",
+        "path": "data_path"
+    },
+    "plugin.video.realizerx": {
+        "name": "RealizerX",
         "setting": "savedata",
         "path": "data_path"
     },
@@ -29,8 +64,6 @@
         "setting": "savedata",
         "path": "data_path"
     },
-
-
 
 
     "script.trakt": {
@@ -43,42 +76,6 @@
         "setting": "savedata",
         "path": "data_path"
     },
-    "plugin.video.scrubsv2": {
-        "name": "Scrubs V2",
-        "setting": "savedata",
-        "path": "data_path"
-    },
-    "plugin.video.thecrew": {
-        "name": "The Crew",
-        "setting": "savedata",
-        "path": "data_path"
-    },
-    "plugin.video.homelander": {
-        "name": "Homelander",
-        "setting": "savedata",
-        "path": "data_path"
-    },
-    "plugin.video.nightwing": {
-        "name": "Nightwing",
-        "setting": "savedata",
-        "path": "data_path"
-    },
-    "plugin.video.moria": {
-        "name": "Moria",
-        "setting": "savedata",
-        "path": "data_path"
-    },
-    "plugin.video.thepromise": {
-        "name": "The Promise",
-        "setting": "savedata",
-        "path": "data_path"
-    },
-    "plugin.video.aliunde19": {
-        "name": "Aliunde",
-        "setting": "savedata",
-        "path": "data_path"
-    },
-
 
 
     "plugin.video.imdb.trailers": {
@@ -91,4 +88,5 @@
         "setting": "saveyoutube",
         "path": "data_path"
     }
+}
 }
