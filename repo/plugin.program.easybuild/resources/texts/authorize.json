@@ -3,15 +3,15 @@
         "icon": "https://kodiapps.com/sharex/dllhost_2020-02-05_12-07-32.jpg",
         "items": [
             {
-                "name": "*1.Authorize ResolveURL Real-Debrid  ** ALL Builds",
+                "name": "Authorize ResolveURL [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
                 "url": "RunPlugin(plugin://script.module.resolveurl/?mode=auth_rd)"
             },
             {
-                "name": "*2.Authorize FENLight(AM) Real Debrid  ** Nimbus and KISS Build",
+                "name": "Authorize FENLight(AM) [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
                 "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=real_debrid.authenticate)"
             },
             {
-                "name": "*2.Authorize FEN Real Debrid  ** Chameleon Build",
+                "name": "Authorize FEN Real Debrid ",
                 "url": "RunPlugin(plugin://plugin.video.fen/?mode=real_debrid.authenticate)"
             },
             {
@@ -65,22 +65,26 @@
     "Authorize Trakt": {
         "icon": "https://techwiser.com/wp-content/uploads/2020/09/trakt-logo.png",
         "items": [
-			{
+            {
+                "name": "Authorize FENLight [COLOR red][B]Trakt[/B][/COLOR] (easybuild)",
+                "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=trakt.trakt_authenticate)"
+            },
+            {
+                "name": "Authorize Scrubs [COLOR red][B]Trakt[/B][/COLOR] (easybuild)",
+                "url": "RunPlugin(plugin://plugin.video.scrubsv2/?action=auth_trakt)"
+            },
+            {
+                "name": "Authorize TMDBH [COLOR red][B]Trakt[/B][/COLOR] (easybuild)",
+                "url": "RunScript(plugin.video.themoviedb.helper,authenticate_trakt)"
+            },			
+            {
                 "name": "Authorize Trakt Addon",
                 "url": "RunScript(script.trakt,action=auth_info)"
-            },
-            {
-                "name": "*Authorize FENLight Trakt ** Nimbus and KISS Builds",
-                "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=trakt.trakt_authenticate)"
-            }, 
-            {
-                "name": "*Authorize FEN Trakt  ** Chameleon Build",
+            },            
+			{
+                "name": "Authorize FEN Trakt",
                 "url": "RunPlugin(plugin://plugin.video.fen/?mode=trakt.trakt_authenticate)"
             },                       
-            {
-                "name": "Authorize TMDBH Trakt",
-                "url": "RunScript(plugin.video.themoviedb.helper,authenticate_trakt)"
-            },
             {
                 "name": "Authorize Seren Trakt",
                 "url": "RunPlugin(plugin://plugin.video.seren/?action=authTrakt)"
@@ -109,10 +113,6 @@
             {
                 "name": "Authorize Homelander Trakt",
                 "url": "RunPlugin(plugin://plugin.video.homelander/?action=authTrakt)"
-            },
-            {
-                "name": "Authorize Scrubs Trakt",
-                "url": "RunPlugin(plugin://plugin.video.scrubsv2/?action=auth_trakt)"
             },
             {
                 "name": "Authorize Magic Dragon Trakt",
