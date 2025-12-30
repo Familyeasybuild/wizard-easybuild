@@ -76,6 +76,13 @@
             {
                 "name": "Authorize TMDBH [COLOR red][B]Trakt[/B][/COLOR] (easybuild)",
                 "url": "RunScript(plugin.video.themoviedb.helper,authenticate_trakt)"
+            },
+{
+                "name": "[COLOR GOLD][B]Revoke[/B][/COLOR] FENLight [COLOR red][B]Trakt[/B][/COLOR] (easybuild)",
+                "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=trakt.trakt_revoke_authentication)"
+            },
+                "name": "[COLOR GOLD][B]Revoke[/B][/COLOR] Scrubs [COLOR red][B]Trakt[/B][/COLOR] (easybuild)",
+                "url": "RunPlugin(plugin://plugin.video.scrubsv2/?action=revoke_auth_trakt)"
             },			
             {
                 "name": "Authorize Trakt Addon",
@@ -178,10 +185,6 @@
                 "name": "Revoke FEN Trakt",
                 "url": "RunPlugin(plugin://plugin.video.fen/?mode=trakt.trakt_revoke_authentication)"
             },
-			{
-                "name": "[COLOR GOLD][B]Revoke[/B][/COLOR] FENLight [COLOR red][B]Trakt[/B][/COLOR] (easybuild)",
-                "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=trakt.trakt_revoke_authentication)"
-            }
         ]
     },
     "Authorize Premiumize": {
