@@ -10,6 +10,14 @@
                 "name": "Authorize FENLight(AM) [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
                 "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=real_debrid.authenticate)"
             },
+			{
+                "name": "[COLOR GOLD][B]Revoke[/B][/COLOR] ResolveURL [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
+                "url": "RunPlugin(plugin://script.module.resolveurl/?mode=reset_rd)"
+            },
+            {
+                "name": "[COLOR GOLD][B]Revoke[/B][/COLOR] FEN Light(AM) [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
+                "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=real_debrid.revoke_authentication)"
+            },
             {
                 "name": "Authorize FEN Real Debrid ",
                 "url": "RunPlugin(plugin://plugin.video.fen/?mode=real_debrid.authenticate)"
@@ -34,14 +42,6 @@
 			{
                 "name": "Authorize EZRA Real Debrid",
                 "url": "RunScript(script.module.myaccounts, action=realdebridAuth)"
-            },
-            {
-                "name": "[COLOR GRAY][B]Revoke[/B][/COLOR] ResolveURL [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
-                "url": "RunPlugin(plugin://script.module.resolveurl/?mode=reset_rd)"
-            },
-            {
-                "name": "[COLOR GRAY][B]Revoke[/B][/COLOR] FEN Light(AM) [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
-                "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=real_debrid.revoke_authentication)"
             },
             {
                 "name": "Revoke FEN Real-Debrid",
@@ -179,8 +179,8 @@
                 "url": "RunPlugin(plugin://plugin.video.fen/?mode=trakt.trakt_revoke_authentication)"
             },
 			{
-                "name": "[COLOR GRAY][B]Revoke[/B][/COLOR] FENLight [COLOR red][B]Trakt[/B][/COLOR] (easybuild)",
-                "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=trakt.trakt_revoke_authenticate)"
+                "name": "[COLOR GOLD][B]Revoke[/B][/COLOR] FENLight [COLOR red][B]Trakt[/B][/COLOR] (easybuild)",
+                "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=trakt.trakt_revoke_authentication)"
             }
         ]
     },
