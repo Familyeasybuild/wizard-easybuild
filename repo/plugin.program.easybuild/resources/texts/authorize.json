@@ -36,11 +36,11 @@
                 "url": "RunScript(script.module.myaccounts, action=realdebridAuth)"
             },
             {
-                "name": "[COLOR GREEN][B]Revoke[/B][/COLOR] ResolveURL [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
+                "name": "[COLOR GRAY][B]Revoke[/B][/COLOR] ResolveURL [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
                 "url": "RunPlugin(plugin://script.module.resolveurl/?mode=reset_rd)"
             },
             {
-                "name": "[COLOR GREEN][B]Revoke[/B][/COLOR] FEN Light(AM) [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
+                "name": "[COLOR GRAY][B]Revoke[/B][/COLOR] FEN Light(AM) [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
                 "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=real_debrid.revoke_authentication)"
             },
             {
@@ -177,6 +177,10 @@
             {
                 "name": "Revoke FEN Trakt",
                 "url": "RunPlugin(plugin://plugin.video.fen/?mode=trakt.trakt_revoke_authentication)"
+            },
+			{
+                "name": "[COLOR GRAY][B]Revoke[/B][/COLOR] FENLight [COLOR red][B]Trakt[/B][/COLOR] (easybuild)",
+                "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=trakt.trakt_revoke_authenticate)"
             }
         ]
     },
