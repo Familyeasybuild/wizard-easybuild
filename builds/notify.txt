@@ -7,6 +7,11 @@ Family Easybuild Notification
      ______UPDATE______ 
        TO BE INSTALLED
 -----------------------------------------
+01-jan-26 > Added to favourites (FAMILY GOTTA WATCH)
+          > search added (people search)
+		  > saved accounts updated 
+		  > update 3.4
+		  
 05-Dec-25 > Fen out of date full up date with fen light fm.
           > Added a random movie or TV show section in movies or tv shows.
 		  > you need to authorise Trakt and real debride go to authorise accounts section 
