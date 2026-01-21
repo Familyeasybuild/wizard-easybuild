@@ -30,7 +30,7 @@
         "path": "data_path"
     },
     "plugin.video.fenlight": {
-        "name": "FENLight(AM)",
+        "name": "Fen Light",
         "setting": "savedata",
         "path": "data_path"
     },
