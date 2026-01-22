@@ -60,14 +60,3 @@ def Log(msg):
 
 def log(_text, _var):
     xbmc.log(f'{_text} = {str(_var)}', xbmc.LOGINFO)
-
-
-class DialogBusy():
-
-    @staticmethod
-    def Open():
-        xbmc.executebuiltin('ActivateWindow(busydialognocancel)')
-
-    @staticmethod
-    def Close():
-        xbmc.executebuiltin('Dialog.Close(busydialognocancel)')

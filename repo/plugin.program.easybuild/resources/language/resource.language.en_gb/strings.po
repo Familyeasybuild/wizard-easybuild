@@ -280,31 +280,7 @@ msgid "Edit Whitelist"
 msgstr ""
 
 msgctxt "#30065"
-msgid "Add whitelist"
-msgstr ""
-
-msgctxt "#30066"
-msgid "Remove whitelist"
-msgstr ""
-
-msgctxt "#30067"
-msgid "added to"
-msgstr ""
-
-msgctxt "#30068"
-msgid "whitelist"
-msgstr ""
-
-msgctxt "#30069"
-msgid "removed from"
-msgstr ""
-
-msgctxt "#30070"
-msgid "not added to"
-msgstr ""
-
-msgctxt "#30071"
-msgid "not removed from"
+msgid ""
 msgstr ""
 
 msgctxt "#30950"
