@@ -5,6 +5,7 @@ import xbmcvfs
 import xbmcgui
 from uservar import excludes
 from .addonvar import addon_id
+from .utils import Log
 
 translatePath = xbmcvfs.translatePath
 addon_id = xbmcaddon.Addon().getAddonInfo('id')
@@ -64,3 +65,15 @@ def add_whitelist(_excludes):
     else:
         return _excludes
 EXCLUDES_INSTALL = add_whitelist(EXCLUDES_BASIC)
+
+
+def create_whitelist():
+    #Create whitelist json if not exists allready
+    if not xbmcvfs.exists(file_path):
+        with open(file_path, 'w') as whitelist_file:
+            json.dump({'whitelist': []}, whitelist_file, indent = 4)
+        if xbmcvfs.exists(file_path):
+            Log(f'whitelist file generated at {file_path}')
+    else:
+        Log(f'whitelist already exists at {file_path}')
+

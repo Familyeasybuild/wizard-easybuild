@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.easybuild" name="family easybuild" version="3.0.7" provider-name="easybuild">
+<addon id="plugin.program.dab19wiz" name="DaBs Kodi Wizard" version="3.2" provider-name="DaButcher">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -7,9 +7,21 @@
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.service" library="service.py" />
+	<extension point="kodi.context.item">
+		<menu id="kodi.core.main">
+			<item library="context.py" args="add">
+				<label>$ADDON[plugin.program.simplewizard 30065]</label>
+				<visible>[Window.IsVisible(home)|Window.IsVisible(programs)|Window.IsVisible(videos)|Window.IsVisible(addonbrowser)|Window.IsVisible(music)|Window.IsVisible(pictures)|Window.IsVisible(games)]+!String.Contains(Window(10000).Property(WHITELIST),ListItem.Property(Addon.ID))+!String.IsEmpty(ListItem.Property(Addon.ID))</visible>
+			</item>
+			<item library="context.py" args="remove">
+				<label>$ADDON[plugin.program.simplewizard 30066]</label>
+				<visible>[Window.IsVisible(home)|Window.IsVisible(programs)|Window.IsVisible(videos)|Window.IsVisible(addonbrowser)|Window.IsVisible(music)|Window.IsVisible(pictures)|Window.IsVisible(games)]+String.Contains(Window(10000).Property(WHITELIST),ListItem.Property(Addon.ID))+!String.IsEmpty(ListItem.Property(Addon.ID))</visible>
+			</item>
+		</menu>
+	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Welcome to the family easybuild Wizard</summary>
-		<description lang="en_GB">family Easybuild is a small build for family members ONLY, Please do not install if you do not have promision</description>
+		<summary lang="en_GB">Dabutcher's Build Wizard Kodi 19,20,21</summary>
+		<description lang="en_GB">Kodi Wizard</description>
 		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
 		<language>en</language>
 		<platform>all</platform>
@@ -18,13 +30,10 @@
 		<website></website> 
 		<email></email>
 		<source></source>
-		<news></news>
+		<news> 3.1 added Fenlight to SAVED DATA  Added Info in Authorize Real-Debrid section to make it easier for new users</news>
 		<assets>
-				<icon>icon.png</icon>
-				<fanart>fanart.jpg</fanart>
-				<screenshot>resources/screenshot-01.jpg</screenshot>
-				<screenshot>resources/screenshot-02.jpg</screenshot>
-				<screenshot>resources/screenshot-03.jpg</screenshot>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
 				<banner></banner>
 				<clearlogo></clearlogo>
 				<screenshot></screenshot>

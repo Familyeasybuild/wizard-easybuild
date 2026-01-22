@@ -1,10 +1,14 @@
-import xbmcaddon
-
 '''#####-----Build File-----#####'''
-buildfile = 'https://raw.githubusercontent.com/Familyeasybuild/wizard-easybuild/master/builds/builds.json'
+buildfile = 'http://dabutcher.org/19/test.xml'
 
-'''#####-----Notifications File-----#####'''
-notify_url  = 'https://raw.githubusercontent.com/Familyeasybuild/wizard-easybuild/master/builds/notify.txt'
+'''#####-----Videos File-----#####'''
+videos_url = 'http://dabutcher.org/19/videofile.txt'
+
+'''#####-----Notification File-----#####'''
+notify_url  = 'http://dabutcher.org/19/notify19.txt'
+
+'''#####-----Changelog Directory-----#####'''
+changelog_dir  = 'http://CHANGEME/'
 
 '''#####-----Excludes-----#####'''
 excludes  = ['plugin.video.whatever']
