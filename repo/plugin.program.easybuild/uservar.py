@@ -1,11 +1,11 @@
 '''#####-----Build File-----#####'''
-buildfile = 'http://dabutcher.org/19/test.xml'
+buildfile = 'https://raw.githubusercontent.com/Familyeasybuild/wizard-easybuild/master/builds/builds.json'
 
 '''#####-----Videos File-----#####'''
-videos_url = 'http://dabutcher.org/19/videofile.txt'
+videos_url = 'http://CHANGEME'
 
-'''#####-----Notification File-----#####'''
-notify_url  = 'http://dabutcher.org/19/notify19.txt'
+'''#####-----Notifications File-----#####'''
+notify_url  = 'https://raw.githubusercontent.com/Familyeasybuild/wizard-easybuild/master/builds/notify.txt'
 
 '''#####-----Changelog Directory-----#####'''
 changelog_dir  = 'http://CHANGEME/'
