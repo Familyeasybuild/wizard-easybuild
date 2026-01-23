@@ -64,6 +64,8 @@
         "setting": "savedata",
         "path": "data_path"
     },
+
+
     "script.trakt": {
         "name": "Trakt",
         "setting": "savedata",
@@ -74,6 +76,8 @@
         "setting": "savedata",
         "path": "data_path"
     },
+
+
     "plugin.video.imdb.trailers": {
         "name": "IMDb Trailers",
         "setting": "savedata",
@@ -83,45 +87,5 @@
         "name": "YouTube",
         "setting": "saveyoutube",
         "path": "data_path"
-    },
-    "plugin.video.daddylive": {
-        "name": "daddylive",
-        "setting": "savedata",
-        "path": "data_path"
-    },
-    "plugin.video.fidoK19": {
-        "name": "fidoK19",
-        "setting": "savedata",
-        "path": "data_path"
-    },
-    "plugin.video.looptv": {
-        "name": "looptv",
-        "setting": "savedata",
-        "path": "data_path"
-    },
-    "plugin.video.madtitansports": {
-        "name": "madtitansports",
-        "setting": "savedata",
-        "path": "data_path"
-    },
-    "plugin.video.scrubsv2": {
-        "name": "scrubsv2",
-        "setting": "savedata",
-        "path": "data_path"
-    },
-    "plugin.video.the-loop": {
-        "name": "the-loop",
-        "setting": "savedata",
-        "path": "data_path"
-    },
-    "plugin.video.themoviedb.helper": {
-        "name": "themoviedb.helper",
-        "setting": "savedata",
-        "path": "data_path"
-    },
-    "plugin.video.xmasfidoK19": {
-        "name": "xmasfidoK19",
-        "setting": "savedata",
-        "path": "data_path"
-    },
+    }
 }
