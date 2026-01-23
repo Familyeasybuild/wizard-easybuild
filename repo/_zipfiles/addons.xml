@@ -33,7 +33,8 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="repository.easybuild" name="Easybuild Repo" version="1.0.1" provider-name="Familyeasybuild">
+
+<addon id="repository.easybuild" name="Easybuild Repo" version="1.0.2" provider-name="Familyeasybuild">
     <extension point="xbmc.addon.repository" name="Easybuild Repo">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/Familyeasybuild/wizard-easybuild/master/repo/_zipfiles/addons.xml</info>
