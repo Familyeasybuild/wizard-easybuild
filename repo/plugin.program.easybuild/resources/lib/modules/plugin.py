@@ -14,6 +14,7 @@ from .whitelist import get_whitelist
 from .addonvar import addon, addon_name, addon_icon, gui_save_default, gui_save_user, advancedsettings_k20, advancedsettings_k21, advancedsettings_k22, UPDATE_VERSION, CURRENT_BUILD, BUILD_URL
 from .save_data import restore_gui, restore_skin, backup_gui_skin
 from .backup_restore import backup_build, restore_menu, restore_build, get_backup_folder, reset_backup_folder
+from .utils import Log
 
 try:
     HANDLE = int(sys.argv[1])
@@ -23,7 +24,7 @@ except IndexError:
 def router(paramstring):
     p = Params(paramstring)
     xbmc.log(str(p.get_params()), xbmc.LOGDEBUG)
-    
+    Log(str(p.get_params()))
     name = p.get_name()
     name2 = p.get_name2()
     version = p.get_version()
@@ -134,7 +135,7 @@ def router(paramstring):
     elif mode == 31:
         advanced_settings(advancedsettings_k22)
         
-    elif mode == 32:
+    elif mode == 31:
         name = CURRENT_BUILD
         name2 = name
         if BUILD_URL.startswith('https://www.dropbox.com'):

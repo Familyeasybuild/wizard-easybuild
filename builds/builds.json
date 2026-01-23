@@ -9,7 +9,19 @@
 			"description": "BIG BUILD Movie, TV, Sport, Live TV.(family easybuild wizard)"
 		},
 		{
+<<<<<<< HEAD
 			"name": "-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-",
+=======
+			"name": "SMALL BUILD >>>> Movies, TV  <<<< (easybuild)",
+			"version": "1.4",
+			"url": "https://www.dropbox.com/scl/fi/wfkdazw5wl8auzh7cheju/small-build-zephyr.mod-skin-1.4-20.2-easybuild-family.zip?rlkey=warn0d39bdnker5bn3o45k05w&st=xu5r60sl&dl=1",
+			"icon": "https://www.dropbox.com/scl/fi/3i51nay0sqqrwgc8kkc0s/family-easybuild-build.jpg?rlkey=a83l8xicm171llgnmvywz2mh8&dl=1",
+			"fanart": "https://www.dropbox.com/s/od0n0p277s5fblr/fanart.jpg?dl=1",
+			"description": "SMALL BUILD Movie, TV Only. (family easybuild wizard)"
+		},
+		{
+			"name": "-----------------------",
+>>>>>>> parent of 76c55db (fixed)
 			"version": "----------------------------------------------------",
 			"url": "------------------------",
 			"icon": "-----------------------",
@@ -27,7 +39,7 @@
 		{
 			"name": "Simon's Box's, easybuild (arctic.zephyr.mod skin)",
 			"version": "3.6",
-			"url": "https://www.dropbox.com/scl/fi/33x4o3r1mnznxa5vopn1o/arctic-zephyr.mod-skin-3.6-21.2-easybuild.zip?rlkey=52o09u2slns5utsggra9ca3wu&st=t4hrh6a0&dl=1",
+			"url": "https://www.dropbox.com/scl/fi/w6c5hw4idh5f8upbi1jpc/arctic-zephyr.mod-skin-3.6-21.2-easybuild.zip?rlkey=vzte2rugbxuw44e507po7ecle&st=uaoqv66e&dl=1",
 			"icon": "https://www.dropbox.com/scl/fi/3i51nay0sqqrwgc8kkc0s/family-easybuild-build.jpg?rlkey=a83l8xicm171llgnmvywz2mh8&dl=1",
 			"fanart": "https://www.dropbox.com/s/od0n0p277s5fblr/fanart.jpg?dl=1",
 			"description": "bedroom tv, front room tv, kitchen tv, garage tv, tablets (family easybuild wizard)"

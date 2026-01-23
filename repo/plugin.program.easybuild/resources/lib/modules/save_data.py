@@ -101,7 +101,7 @@ def save_backup_restore(_type: str) -> None:
                         tasks = [
                             (path, data),               #Backup all addon data
                             (user_path, item),          #Backup Kodi specifics
-                            (path, fenlight),           #Backup Fen Light & Forks
+                            (path, fenlight),           #Backup Fen Light
                             (path, realizer),           #Backup Realizer data
                             (path, youtube),            #Backup Youtube data
                         ]
