@@ -1,4 +1,4 @@
-9
+10
 |||
 
 Family Easybuild Notification
@@ -7,10 +7,25 @@ Family Easybuild Notification
      ______UPDATE______ 
        TO BE INSTALLED
 -----------------------------------------
+  ATTENTION PLEASE DO NOT DO UPDATE UNTILL 
+             YOU DO THIS.
+
+GO TO - settings (click)
+      - add-ons (click)
+	  - now press left and a menu will appear
+	  - check for up-dates
+	  - press left again to exit
+	  - now rcently updated (click)
+	  - make sure family easybuild is updated
+	  
+	  ask me to help if your not sure
+	  
+
 23-jan-26 > Added to favourites (LAW GOTTA WATCH)
           > search added (people search)
 		  > saved accounts updated 
 		  > update 3.7
+		  
 
 
 		  
