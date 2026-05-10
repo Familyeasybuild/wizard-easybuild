@@ -6,10 +6,6 @@
                 "name": "Authorize ResolveURL [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
                 "url": "RunPlugin(plugin://script.module.resolveurl/?mode=auth_rd)"
             },
-			{
-                "name": "Authorize The Gears [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
-                "url": "RunPlugin(plugin://plugin.video.gears/?mode=real_debrid.authenticate)"
-            },
             {
                 "name": "Authorize FENLight(AM) [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
                 "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=real_debrid.authenticate)"
@@ -69,10 +65,6 @@
     "Authorize Trakt": {
         "icon": "https://techwiser.com/wp-content/uploads/2020/09/trakt-logo.png",
         "items": [
-		{
-                "name": "Authorize The Gears [COLOR red][B]Trakt[/B][/COLOR] (easybuild)",
-                "url": "RunPlugin(plugin://plugin.video.gears/?mode=trakt.trakt_authenticate)"
-            },
             {
                 "name": "Authorize FENLight [COLOR red][B]Trakt[/B][/COLOR] (easybuild)",
                 "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=trakt.trakt_authenticate)"
