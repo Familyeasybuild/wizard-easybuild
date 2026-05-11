@@ -10,17 +10,8 @@ Family Easybuild Notification
   ATTENTION PLEASE DO NOT DO UPDATE UNTILL 
              YOU DO THIS.
 
-GO TO - settings (click)
-      - add-ons (click)
-	  - now press left and a menu will appear
-	  - check for up-dates
-	  - press left again to exit
-	  - now rcently updated (click)
-	  - make sure family easybuild is updated
-	  
-	  ask me to help if your not sure
-	  
-
+11-may26  > removed fenlight addon (broken not working
+            installed The gears addon
 23-jan-26 > Added to favourites (LAW GOTTA WATCH)
           > search added (people search)
 		  > saved accounts updated 
