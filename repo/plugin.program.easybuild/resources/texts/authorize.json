@@ -7,10 +7,6 @@
                 "url": "RunPlugin(plugin://script.module.resolveurl/?mode=auth_rd)"
             },
             {
-                "name": "Authorize FENLight(AM) [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
-                "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=real_debrid.authenticate)"
-            },
-{
                 "name": "Authorize gears [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
                 "url": "RunPlugin(plugin://plugin.video.gears/?mode=real_debrid.authenticate)"
             },
@@ -19,51 +15,9 @@
                 "url": "RunPlugin(plugin://script.module.resolveurl/?mode=reset_rd)"
             },
             {
-                "name": "[COLOR GOLD][B]Revoke[/B][/COLOR] FEN Light(AM) [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
-                "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=real_debrid.revoke_authentication)"
-            },
-{
                 "name": "[COLOR GOLD][B]Revoke[/B][/COLOR] gears [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
                 "url": "RunPlugin(plugin://plugin.video.gears/?mode=real_debrid.revoke_authentication)"
-            },
-            {
-                "name": "Authorize FEN Real Debrid ",
-                "url": "RunPlugin(plugin://plugin.video.fen/?mode=real_debrid.authenticate)"
-            },
-            {
-                "name": "Authorize POV Real Debrid",
-                "url": "RunPlugin(plugin://plugin.video.pov/?mode=myservices&action=realdebrid)"
-            },           
-            {
-                "name": "Authorize Realizer Cloud",
-                "url": "RunPlugin(plugin://plugin.video.realizerx/?action=authRealdebrid)"
-            },
-            {
-                "name": "Authorize Seren Real Debrid",
-                "url": "RunPlugin(plugin://plugin.video.seren/?action=authRealDebrid)"
-            },
-            {
-                "name": "Authorize Umbrella Real Debrid",
-                "url": "RunPlugin(plugin://plugin.video.umbrella/?action=rd_Authorize)"
-            },
-
-			{
-                "name": "Authorize EZRA Real Debrid",
-                "url": "RunScript(script.module.myaccounts, action=realdebridAuth)"
-            },
-            {
-                "name": "Revoke FEN Real-Debrid",
-                "url": "RunPlugin(plugin://plugin.video.fen/?mode=real_debrid.revoke_authentication)"
-            },
-            {
-                "name": "Revoke Umbrella Real-Debrid",
-                "url": "RunPlugin(plugin://plugin.video.umbrella/?action=rd_Revoke)"
-            },
-
-			{
-                "name": "Revoke EZRA Real-Debrid",
-                "url": "RunScript(script.module.myaccounts, action=realdebridRevoke)"
-            },
+            },         
             {
                 "name": "Check If your VPN is compatible with Real Debrid",
                 "url": "ActivateWindow(10001,plugin://script.RealDebrid.vpn/,return)"
@@ -74,8 +28,8 @@
         "icon": "https://techwiser.com/wp-content/uploads/2020/09/trakt-logo.png",
         "items": [
             {
-                "name": "Authorize FENLight [COLOR red][B]Trakt[/B][/COLOR] (easybuild)",
-                "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=trakt.trakt_authenticate)"
+                "name": "Authorize gears [COLOR red][B]Trakt[/B][/COLOR] (easybuild)",
+                "url": "RunPlugin(plugin://plugin.video.gears/?mode=trakt.trakt_authenticate)"
             },
             {
                 "name": "Authorize Scrubs [COLOR red][B]Trakt[/B][/COLOR] (easybuild)",
@@ -90,105 +44,8 @@
                 "url": "RunScript(script.trakt,action=auth_info)"
             },            
 			{
-                "name": "Authorize FEN Trakt",
-                "url": "RunPlugin(plugin://plugin.video.fen/?mode=trakt.trakt_authenticate)"
-            },                       
-            {
-                "name": "Authorize Seren Trakt",
-                "url": "RunPlugin(plugin://plugin.video.seren/?action=authTrakt)"
-            },
-            {
-                "name": "Authorize Umbrella Trakt",
-                "url": "RunPlugin(plugin://plugin.video.umbrella/?action=traktAuth)"
-            },
-
-			{
-                "name": "Authorize EZRA Trakt",
-                "url": "RunScript(script.module.myaccounts, action=traktAuth)"
-            },
-            {
-                "name": "Authorize Premiumizer Cloud Trakt",
-                "url": "RunPlugin(plugin://plugin.video.premiumizerx/?action=authTrakt)"
-            },
-            {
-                "name": "Authorize The Crew Trakt",
-                "url": "RunPlugin(plugin://plugin.video.thecrew/?action=authTrakt)"
-            },
-            {
-                "name": "Authorize The Promise Trakt",
-                "url": "RunPlugin(plugin://plugin.video.thepromise/?action=authTrakt)"
-            },
-            {
-                "name": "Authorize Homelander Trakt",
-                "url": "RunPlugin(plugin://plugin.video.homelander/?action=authTrakt)"
-            },
-            {
-                "name": "Authorize Magic Dragon Trakt",
-                "url": "RunPlugin(plugin://plugin.video.magicdragon?mode=157&url=False)"
-            },
-            {
-                "name": "Authorize Asgard Trakt",
-                "url": "RunPlugin(plugin://plugin.video.asgard?mode=157&url=False)"
-            },
-            {
-                "name": "Authorize Kodiverse Trakt",
-                "url": "RunPlugin(plugin://plugin.video.KodiVerse?mode=157&url=False)"
-            },
-            {
-                "name": "Authorize The Chains Trakt",
-                "url": "RunPlugin(plugin://plugin.video.thechains?mode=157&url=False)"
-            },
-			{
-                "name": "Authorize Ghost Trakt",
-                "url": "RunPlugin(plugin://plugin.video.ghost?mode=157&url=False)"
-            },
-            {
-                "name": "Authorize Shadow Trakt",
-                "url": "RunPlugin(plugin://plugin.video.shadow?mode=157&url=False)"
-            },
-			{
-                "name": "Authorize Moria Trakt",
-                "url": "RunPlugin(plugin://plugin.video.moria/?action=authTrakt)"
-            },
-			{
-                "name": "Authorize METV Trakt",
-                "url": "RunPlugin(plugin://plugin.video.metv19?mode=157&url=False)"
-            },
-			{
-                "name": "Authorize Patriot Trakt",
-                "url": "RunPlugin(plugin://plugin.video.patriot?mode=157&url=False)"
-            },
-			{
-                "name": "Authorize Genocide Trakt",
-                "url": "RunPlugin(plugin://plugin.video.Genocide?mode=157&url=False)"
-            },
-			{
-                "name": "Authorize Black Lightning Trakt",
-                "url": "RunPlugin(plugin://plugin.video.blacklightning?mode=157&url=False)"
-            },
-			{
-                "name": "Authorize 4K Trakt",
-                "url": "RunPlugin(plugin://plugin.video.4k?mode=157&url=False)"
-            },
-            {
-                "name": "Revoke Seren Trakt",
-                "url": "RunPlugin(plugin://plugin.video.seren/?action=revokeTrakt)"
-            },
-			{
-                "name": "Revoke EZRA Trakt",
-                "url": "RunScript(script.module.myaccounts, action=traktRevoke)"
-            },
-            {
-                "name": "Revoke Umbrella Trakt",
-                "url": "RunPlugin(plugin://plugin.video.umbrella/?action=traktRevoke)"
-            },
-            {
-                "name": "Revoke FEN Trakt",
-                "url": "RunPlugin(plugin://plugin.video.fen/?mode=trakt.trakt_revoke_authentication)"
-            },
-			{
-                "name": "[COLOR GOLD][B]Revoke[/B][/COLOR] FENLight [COLOR red][B]Trakt[/B][/COLOR] (easybuild)",
-                "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=trakt.trakt_revoke_authentication)"
+                "name": "[COLOR GOLD][B]Revoke[/B][/COLOR] gears [COLOR red][B]Trakt[/B][/COLOR] (easybuild)",
+                "url": "RunPlugin(plugin://plugin.video.gears/?mode=trakt.trakt_revoke_authentication)"
             }
         ]
     },
