@@ -10,6 +10,10 @@
                 "name": "Authorize FENLight(AM) [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
                 "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=real_debrid.authenticate)"
             },
+{
+                "name": "Authorize gears [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
+                "url": "RunPlugin(plugin://plugin.video.gears/?mode=real_debrid.authenticate)"
+            },
 			{
                 "name": "[COLOR GOLD][B]Revoke[/B][/COLOR] ResolveURL [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
                 "url": "RunPlugin(plugin://script.module.resolveurl/?mode=reset_rd)"
@@ -17,6 +21,10 @@
             {
                 "name": "[COLOR GOLD][B]Revoke[/B][/COLOR] FEN Light(AM) [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
                 "url": "RunPlugin(plugin://plugin.video.fenlight/?mode=real_debrid.revoke_authentication)"
+            },
+{
+                "name": "[COLOR GOLD][B]Revoke[/B][/COLOR] gears [COLOR blue][B]Real-Debrid[/B][/COLOR] (easybuild)",
+                "url": "RunPlugin(plugin://plugin.video.gears/?mode=real_debrid.revoke_authentication)"
             },
             {
                 "name": "Authorize FEN Real Debrid ",
