@@ -30,7 +30,6 @@ def purge_db(db):
                 xbmc.log('Data from table `%s` cleared.' % table[0], xbmc.LOGDEBUG)
             except Exception as e:
                 xbmc.log("DB Remove Table `%s` Error: %s" % (table[0], str(e)), xbmc.LOGERROR)
-    conn.execute('VACUUM')
     conn.close()
     xbmc.log('%s DB Purging Complete.' % db, xbmc.LOGINFO)
 
@@ -42,9 +41,10 @@ def clear_thumbnails():
             xbmc.log('Failed to delete %s. Reason: %s' % (os.path.join(user_path, 'Thumbnails'), e), xbmc.LOGINFO)
             return
     try:
-        purge_db(textures_db)
+        if os.path.exists(os.path.join(db_path, 'Textures13.db')):
+            os.unlink(os.path.join(db_path, 'Textures13.db'))
     except:
-        xbmc.log('%s DB Purging Failed.' % textures_db, xbmc.LOGINFO)
+        purge_db(textures_db)
     xbmc.sleep(1000)
     xbmcgui.Dialog().ok(addon_name, local_string(30037))  # Thumbnails Deleted
 
