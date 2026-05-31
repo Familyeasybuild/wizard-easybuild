@@ -23,6 +23,10 @@ import xbmc
 import xbmcvfs
 import xbmcaddon
 
+
+
+KODIV  = float(xbmc.getInfoLabel("System.BuildVersion")[:4])
+
 def getOld(old):
     try:
         old = '"%s"' % old 

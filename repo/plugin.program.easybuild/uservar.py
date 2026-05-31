@@ -1,14 +1,11 @@
 '''#####-----Build File-----#####'''
-buildfile = 'https://raw.githubusercontent.com/Familyeasybuild/wizard-easybuild/master/builds/builds.json'
+buildfile = 'http://CHANGEME'
 
 '''#####-----Videos File-----#####'''
 videos_url = 'http://CHANGEME'
 
 '''#####-----Notifications File-----#####'''
-notify_url  = 'https://raw.githubusercontent.com/Familyeasybuild/wizard-easybuild/master/builds/notify.txt'
-
-'''#####-----Changelog Directory-----#####'''
-changelog_dir  = 'http://CHANGEME/'
+notify_url  = 'http://CHANGEME'
 
 '''#####-----Excludes-----#####'''
 excludes  = ['plugin.video.whatever']
