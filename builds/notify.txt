@@ -7,6 +7,8 @@ Family Easybuild Notification
      ______UPDATE______ 
        TO BE INSTALLED
 -----------------------------------------
+  ATTENTION PLEASE DO NOT DO UPDATE UNTILL 
+             YOU DO THIS.
 
 11-may26  > removed fenlight addon (broken not working
             installed The gears addon
