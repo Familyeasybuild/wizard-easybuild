@@ -11,14 +11,14 @@
 			"preview": "http://"
 		},
 				{
-			"name": "[COLOR blue][B]DO NOT USE BELOW THIS[/B][/COLOR]",
-			"version": "TESTING ONLY",
-			"kodi": "-",
-			"url": "-",
-			"icon": "-",
-			"fanart": "-",
-			"description": "-",
-			"preview": "-"
+			"name": "",
+			"version": "",
+			"kodi": "",
+			"url": "",
+			"icon": "",
+			"fanart": "",
+			"description": "",
+			"preview": ""
 		},
 		{
 			"name": "Simon's Box's, easybuild (arctic.zephyr.mod skin)",
