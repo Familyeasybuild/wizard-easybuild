@@ -11,8 +11,8 @@
 			"preview": "http://"
 		},
 				{
-			"name": "[COLOR blue][B]DO NOT USE BELOW THIS. >>TESTING ONLY<<[/B][/COLOR]",
-			"version": "-",
+			"name": "[COLOR blue][B]DO NOT USE BELOW THIS[/B][/COLOR]",
+			"version": "TESTING ONLY",
 			"kodi": "-",
 			"url": "-",
 			"icon": "-",
