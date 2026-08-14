@@ -35,7 +35,7 @@
         "path": "data_path"
     },
     "plugin.video.gears": {
-        "name": "gears",
+        "name": "The Gears",
         "setting": "savedata",
         "path": "data_path"
     },
